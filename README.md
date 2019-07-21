@@ -66,6 +66,15 @@ plt.show()
   - `capture.release(), cv2.destroyAllWindows()` : カメラから得ているキャプチャを終了し, ウィンドウを閉じる. 
   - `plt.plot(x, y, label="test"), plt.show()` : w,yの値を表示させている. 
   
+  
+- 実行結果  
+今回の課題は, カメラに指を押し当て脈拍を図るというものだった. これは指に光をあてることで指を透過し, 光の微量な変化を読み込み, 輝度値の平均としてグラフに表示している. 以下にグラフを表示する. 
+
+![](opencv-2.pdf)
+
+また, 輝度値の値をkidoti.txtに示す. 
+
+
 - 参考文献
   - [matplotlibでのプロットの基本](https://qiita.com/KntKnk0328/items/5ef40d9e77308dd0d0a40)  
   matplotでグラフをプロットする方法
