@@ -1,4 +1,4 @@
-# ディジタル信号処理と画像処理　レポート課題
+# ディジタル信号処理と画像処理　OpenCvを用いた画像処理
 
 B173394 
 
@@ -72,8 +72,13 @@ plt.show()
 
 ![](opencv-2.pdf)
 
-また, 輝度値の値をkidoti.txtに示す. 
+これにより脈拍をグラフの一定の変化により確認することができる. また, 輝度値の値をkidoti.txtに示し, ウィンドウの画像の変化をGIFに示す. GIFファイルからも光の微量な変化を見ることができる. 
 
+![](openCV.gif)
+
+- バージョン
+    - macOS Mojave 10.14.5
+    - Pyhton 3.7
 
 - 参考文献
   - [matplotlibでのプロットの基本](https://qiita.com/KntKnk0328/items/5ef40d9e77308dd0d0a40)  
